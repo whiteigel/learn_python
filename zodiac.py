@@ -16,6 +16,8 @@ zodiac = [
 month = input('Enter birth month: ')
 day = int(input('Enter birth date: '))
 
+# comment
+
 for sign in zodiac:
   if sign[1] == month and day >= sign[2] or sign[3] == month and day <= sign[4]:
     print('You zodiac sign is', sign[0])
